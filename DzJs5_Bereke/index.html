@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <div class="wrap-w">
+        <div class="widget">
+            <div class="spinner-grow load" id="load" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="date">
+                <div class="date">
+                    <p id="date">
+                        Data...
+                    </p>
+                </div>
+                <div class="city">
+                    <p id="cityN">
+                        Country
+                    </p>
+                </div>
+                <div class="temp">
+                    <img src="https://s5.postimg.cc/yzcm7htyb/image.png" alt="" width="60">
+                    <span id="temp">C&deg;</span>
+                </div>
+            </div>
+            <div class="img">
+                <img id="imgCity" src="https://s5.postimg.cc/lifnombwz/mumbai1.png" alt="" width="160">
+            </div>
+
+            <div style="width: 400px; position: relative; margin: 70px auto; border: none; height: 150px ">
+                <input type="text" name="" placeholder="Write country name or city !" id="getW">
+                <button onclick="getWeather()">Search</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>

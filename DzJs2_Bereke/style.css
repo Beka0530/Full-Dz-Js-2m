@@ -1,0 +1,85 @@
+body {
+    background: rgba(22,1,20,0.75);
+}
+
+h3 {
+    font-size: 30px;
+    color: darkorange;
+    text-align: center;
+}
+
+#add-item-btn {
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: midnightblue;
+    background-color: rgba(22,1,20,0.0);
+    border:none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#container {
+    color: darkorange;
+    font-size: 18px;
+    font-family: Lato,sans-serif;
+}
+
+button {
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    font-size: 18px;
+    color: darkorange;
+    font-weight: bold;
+    background-color: #058448;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#container-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #058448;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+span {
+    text-align: center;
+    width: 45px;
+    padding: 15px;
+    font-size: 25px;
+    color: darkorange;
+    font-weight: bold;
+    background-color: #058448;
+    border-radius: 20px;
+}
+
+
+form input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    transform: translate(565px);
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+
+

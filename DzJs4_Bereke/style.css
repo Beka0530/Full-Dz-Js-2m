@@ -1,0 +1,19 @@
+input {
+    z-index: 10;
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
+    color: indigo;
+    padding: 5px;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid midnightblue;
+    background: white;
+    font-weight: bold;
+}
