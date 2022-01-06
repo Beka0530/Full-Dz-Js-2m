@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightgrey;
+}
+input {
+    margin: 20px;
+    width: 350px;
+    height: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+
+button {
+    padding: 5px;
+    background: none;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+}
+button:hover {
+    background: black;
+    color: white;
+    border: 2px solid black;
+}
+.country {
+    font-size: 20px;
+    padding: 15px;
+    color: midnightblue;
+}
